@@ -17,3 +17,8 @@ function mul() {
     let mul = num1 * num2;
     document.getElementById("sum-el").textContent = "Multiply : " + mul;
 }
+
+function div() {
+    let div = num1 / num2;
+    document.getElementById("sum-el").textContent = "divide : " + div;
+}
