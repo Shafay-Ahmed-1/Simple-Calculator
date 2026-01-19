@@ -12,10 +12,8 @@ function sub() {
     let sub =num1 - num2;
     document.getElementById("sum-el").textContent = "subtract : " + sub;
 }
-// Create four functions: add(), subtract(), divide(), multiply()
-// Call the correct function when the user clicks on one of the buttons
-// Perform the given calculation using num1 and num2
-// Render the result of the calculation in the paragraph with id="sum-el"
 
-// E.g. if the user clicks on the "Plus" button, you should render
-// "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
+function mul() {
+    let mul = num1 * num2;
+    document.getElementById("sum-el").textContent = "Multiply : " + mul;
+}
