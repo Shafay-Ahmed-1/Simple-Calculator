@@ -4,10 +4,14 @@ document.getElementById("num1-el").textContent = num1;
 document.getElementById("num2-el").textContent = num2;
 
 function add() {
-    let sum = num1 +num2;
+    let sum = num1 + num2;
     document.getElementById("sum-el").textContent = "Sum : " + sum;
 }
 
+function sub() {
+    let sub =num1 - num2;
+    document.getElementById("sum-el").textContent = "subtract : " + sub;
+}
 // Create four functions: add(), subtract(), divide(), multiply()
 // Call the correct function when the user clicks on one of the buttons
 // Perform the given calculation using num1 and num2
